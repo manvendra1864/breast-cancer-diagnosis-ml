@@ -1,5 +1,4 @@
 # breast-cancer-diagnosis-ml
-# Breast Cancer Prediction
 
 This project explores a machine learning workflow for classifying breast tumors as benign or malignant. The analysis uses the Breast Cancer Wisconsin Diagnostic dataset, stored in [data/breast_cancer_data.csv](data/breast_cancer_data.csv), and is implemented in [analysis/prediction.ipynb](analysis/prediction.ipynb). The goal is to build a predictive model that can support early screening workflows, while keeping the scope clearly experimental and non-clinical.
 
@@ -47,9 +46,6 @@ The best-performing configuration in the notebook was the tuned Logistic Regress
 This project is written in Python and uses common data-science libraries from the notebook workflow.
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate  # macOS/Linux
-# .venv\Scripts\activate  # Windows PowerShell
 pip install jupyter pandas scikit-learn matplotlib
 jupyter notebook analysis/prediction.ipynb
 ```
